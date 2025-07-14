@@ -14,3 +14,44 @@ body {
 }
 
 /* Add in your own customisations */
+header {
+    color: white;               /* [Bonus] Set header to white for alignment with expected output */
+    text-align: center;           /* [5 mark] Align text to the middle */
+    background-color: #93d0f4;  /* [5 mark] Set background colour */
+    padding: 15px 0;              /* [Bonus] Add padding for spacing for alignment with expected output */
+}
+
+main section {
+    margin-top: 20px;          /* [Bonus] Add additional spacing to align with expected output */
+}
+
+table {
+    border-collapse: collapse;     /* [5 mark] Shared border */
+    width: 100%;                   /* [Bonus] Full-width layout for alignment with expected output */
+    margin-bottom: 20px;           /* [Bonus] Add additional spacing to align with expected output */
+}
+
+table, th, td {
+    border: 1px solid #ddd;      /* [5 mark] Border around table and contents */            
+  }
+
+th, td {
+    padding: 10px;                 /* [5 mark] Padding in cells */
+    text-align: left;              /* [5 mark] Align text to the left */
+  }
+
+a {
+    color: #0079c1;              /* [5 mark] Set hyperlink color */
+    text-decoration: none;         /* [Bonus] Remove underline to align with expected output */
+}
+
+a:hover {
+      text-decoration: underline;  /* [Bonus] Underline on hover */
+    }
+
+footer {
+    text-align: center;           /* [5 mark] Center align footer text */
+    background-color: #93d0f4;  /* [5 mark] Footer background */
+    padding: 10px 0;              /* [5 mark] Top and bottom padding */
+    margin-top: 20px;             /* [Bonus] Add additional spacing to align with expected output */
+}
