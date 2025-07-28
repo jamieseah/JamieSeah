@@ -24,4 +24,4 @@ for (let i = 0; i < disneyData.length; i++) {
 const average = sum / disneyData.length;
 const roundedAverage = parseFloat(average.toFixed(2));
 
-console.log("Average closing price of Disney is " + roundedAverage); 
+console.log("Average closing price of Disney is", + roundedAverage); 
